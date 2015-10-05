@@ -1,0 +1,28 @@
+#showtm {
+    font-size:21px;
+    font-weight:800;
+}
+
+.bg {
+    background-color: aliceblue;
+}
+
+.qty {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background: #00ECB9;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1{
+    color: #396;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0 20px;
+}

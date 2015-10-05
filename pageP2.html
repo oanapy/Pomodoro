@@ -1,0 +1,29 @@
+<html>
+<head>
+    <!--<script>var currentVal;</script>-->
+    <script type="text/javascript" src='http://code.jquery.com/jquery-latest.min.js'></script>
+    <script type='text/javascript' src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styleP2.css">
+</head>
+<body>
+
+<h1>Pomodoro Clock</h1>
+<div class="bg">
+    <form>
+        Insert minutes for work:<br>
+        <input type="text" id="minw" />
+        <input class="btn" type="submit" id="submitw" />
+    </form>
+    <div class="mainp" id="showtm">
+        <p>00 : 00</p>
+    </div>
+    <div class="buttons">
+        <button class = "btn" onclick="startChr()" id="start">Start</button>
+        <button class = "btn" onclick="resetChr()" id="reset">Reset</button>
+    </div>
+
+</div>
+<script src="scriptP2.js"></script>
+</body>
+</html>
